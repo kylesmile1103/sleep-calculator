@@ -3,7 +3,11 @@
 	<head>
 		<title>Sleep Calculator</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />		
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+		<link rel="manifest" href="assets/img/site.webmanifest">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -13,14 +17,14 @@
 		<!-- Header -->
 			<header id="header">
 				<h1>Wake Up &#9200; Time Calculator</h1>
-				<h3>uses the REM sleep formula to provide you with optimal sleep. &#128164;</h3>
+				<h3>uses the <a target="_blanket" href="https://www.healthline.com/health/sleep/sleep-calculator">REM sleep</a> formula to provide you with optimal sleep.&#128164;</h3>
 			</header>
 
 			<div class="container container-table main">
 				<div class="row vertical-center-row">
 					<div class="text-center col-md-12 col-md-offset-4" >
-					<p>if I sleep now, what time shall I wake up? &#127774;</p>
-					<input type="submit" value="Sleep Now" onclick="sleepNow()" class="sleep-now-btn">
+					<p>If I sleep now, what time shall I wake up? &#127774;</p>
+					<button type="button" class="btn btn-secondary" onclick="sleepNow()">Calculate</button>
 					<p id="sleep-result"></br></p>
 					</div>
 				</div>
@@ -28,11 +32,11 @@
 
 
 		<!-- Footer -->
-<!-- 			<footer>
+			<footer>
 			</br>
 				<p>Made with ❤ in Beirut, by <a target="_blank" href="https://itsmais.github.io">Mais</a>, in August 2020.
 				</p>
-			</footer> -->
+			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/main.js"></script>
