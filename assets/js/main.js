@@ -12,5 +12,4 @@ function sleepNow(){
     sleepResult.innerHTML="</br>It's "+hours+":"+minutes+" now."
     + " You should <span class=\"time-result\">set your alarm at "+date.getHours()+":"+date.getMinutes()+"</span>"
     +"</br>to complete five 90-minute sleep cycles.";
-
 }
