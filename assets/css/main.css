@@ -2,13 +2,11 @@
 
 h1,h2{
     font-family: 'Heebo', sans-serif;
-    margin-top:10px;
 }
 a{
     color: #000;
 }
 h3{
-    margin-top: -10px;
     margin-bottom: 20px;
     font-weight: lighter;
 }
@@ -36,7 +34,7 @@ input{
     font-family: 'Heebo', sans-serif;
 }
 
-.container p{
+.main p{
     color: #FFF;
 }
 .sleep-now-btn{
@@ -45,4 +43,7 @@ input{
 .time-result{
     font-weight: 500;
     text-decoration: underline;
+}
+.content{
+    margin-top: 80px;
 }
